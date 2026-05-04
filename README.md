@@ -46,6 +46,28 @@ Phase 4 documents how a well-prepared governance team responds: containing the h
 
 ---
 
+## 🔄 Incident Response Process
+
+```mermaid
+flowchart LR
+    A[🔍 Detection\nDay 1 · 10 March] --> B[🛑 Containment\nDay 2 · 12 March]
+    B --> C[🔬 Investigation\nWeeks 2-3]
+    C --> D[📢 Regulatory\nNotification\nDay 17 · 27 March]
+    D --> E[👥 Customer\nRemediation\nWeek 4 · 7 April]
+    E --> F[🔧 Model\nRemediation\nWeeks 5-10]
+    F --> G[✅ Incident\nClosed\nDay 95 · 12 June]
+
+    style A fill:#b71c1c,color:#fff
+    style B fill:#1565c0,color:#fff
+    style C fill:#1565c0,color:#fff
+    style D fill:#6a1b9a,color:#fff
+    style E fill:#1b5e20,color:#fff
+    style F fill:#1b5e20,color:#fff
+    style G fill:#2e7d32,color:#fff
+```
+
+---
+
 ## 🚨 Incident Overview
 
 | | |
@@ -59,6 +81,18 @@ Phase 4 documents how a well-prepared governance team responds: containing the h
 | **Duration** | 95 days |
 
 The Credit Scoring Engine uses postcode as a geographic risk feature. In 12 London postcode districts with above-average concentrations of Black British and South Asian residents, this feature acts as a statistically significant proxy for race and ethnicity. Affected applicants receive scores 35-55 points lower on average than comparably creditworthy applicants from other postcodes - translating to a 12-percentage-point increase in rejection rates and approximately £2.1 million in excess interest charged to affected approved accounts.
+
+**Incident at a glance:**
+
+| Metric | Value |
+|---|---|
+| Applications from affected postcodes reviewed | 4,127 |
+| Rejections under retrospective review | 847 |
+| New lending offers issued to previously rejected applicants | 234 |
+| Excess interest refunded | £2.1 million |
+| Detection to containment | 2 days |
+| Detection to regulatory notification | 17 days |
+| Total incident duration | 95 days |
 
 ---
 
@@ -177,3 +211,4 @@ Finish with [**root-cause-analysis.md**](docs/root-cause-analysis.md) for the 5 
 *Part of an ongoing AI Governance Portfolio · [View all projects →](https://github.com/franciscovfonseca)*
 
 </div>
+
