@@ -22,15 +22,11 @@ Dimensions: 1280x640px. No 3D, no gradients, no cartoon style.
 
 **Phase 4 of an end-to-end AI Governance Programme**
 
-[← Phase 1: AI System Inventory](https://github.com/franciscovfonseca/AI-System-Inventory) · [← Phase 2: AI Risk Assessment](https://github.com/franciscovfonseca/AI-Risk-Assessment) · [← Phase 3: Responsible AI Policy](https://github.com/franciscovfonseca/AI-Governance-Policy) · **Phase 4: AI Incident Response** · Phase 5: Coming Soon
-
 </div>
 
 ---
 
----
-
-## Executive Summary
+## 📌 Executive Summary
 
 Two months after NorthPoint Financial Services implemented its Responsible AI Policy and Governance Framework, an internal bias audit uncovers a critical finding: the NP-001 Credit Scoring Engine has been systematically assigning lower credit scores to loan applicants from London postcodes that correlate with concentrations of ethnic minority communities. The disparity is statistically significant, cannot be explained by creditworthiness differences and has been active since the model was deployed in 2022.
 
@@ -40,7 +36,7 @@ Phase 4 documents how a well-prepared governance team responds: containing the h
 
 ---
 
-## What This Project Demonstrates
+## 🎯 What This Project Demonstrates
 
 - How to structure an **end-to-end AI incident response** - from initial detection and containment through regulatory notification, customer remediation and model redeployment
 - Practical application of the **NIST AI RMF Manage function** to a live AI fairness failure in a high-risk financial services system
@@ -50,7 +46,7 @@ Phase 4 documents how a well-prepared governance team responds: containing the h
 
 ---
 
-## Incident Overview
+## 🚨 Incident Overview
 
 | | |
 |---|---|
@@ -66,7 +62,7 @@ The Credit Scoring Engine uses postcode as a geographic risk feature. In 12 Lond
 
 ---
 
-## Artefacts
+## 📂 Artefacts
 
 | File | Description |
 |---|---|
@@ -76,7 +72,7 @@ The Credit Scoring Engine uses postcode as a geographic risk feature. In 12 Lond
 
 ---
 
-## NorthPoint Programme Context
+## 🔗 Programme Context
 
 This project is Phase 4 of the NorthPoint Financial Services AI Governance Programme - a five-phase portfolio demonstrating end-to-end AI governance capability for a regulated financial services organisation.
 
@@ -92,7 +88,7 @@ The bias audit that detected this incident was conducted as part of the governan
 
 ---
 
-## Framework Alignment
+## 🗺 Framework Alignment
 
 | Deliverable | EU AI Act | NIST AI RMF | ISO 42001 | FCA Consumer Duty |
 |---|---|---|---|---|
@@ -103,7 +99,7 @@ The bias audit that detected this incident was conducted as part of the governan
 
 ---
 
-## Why Incident Response Capability Matters
+## 💡 Why Incident Response Capability Matters
 
 AI incidents involving discriminatory outputs, privacy breaches and unexplained automated decisions are already producing regulatory action and litigation across the financial services sector. The UK FCA has identified algorithmic bias and model risk in credit decisioning as areas of active supervisory concern.
 
@@ -120,7 +116,7 @@ Under the **UK Equality Act 2010**, indirect discrimination in the provision of 
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 AI-Incident-Response/
@@ -134,7 +130,7 @@ AI-Incident-Response/
 
 ---
 
-## How to Navigate This Repository
+## 🧭 How to Navigate This Repository
 
 Start with [**incident-scenario.md**](docs/incident-scenario.md) for the incident description, detection narrative and initial severity assessment.
 
@@ -144,4 +140,40 @@ Finish with [**root-cause-analysis.md**](docs/root-cause-analysis.md) for the 5 
 
 ---
 
-*Part of the NorthPoint Financial Services AI Governance Programme. This is a simulated scenario for portfolio and training purposes.*
+## 🧠 Skills Demonstrated
+
+| Skill Area | What This Project Shows |
+|---|---|
+| **AI Incident Response** | End-to-end incident management from detection and containment through remediation and closure |
+| **Regulatory Escalation** | Notification obligations across EU AI Act Article 73, FCA Consumer Duty, ICO and UK Equality Act 2010 |
+| **Root Cause Analysis** | 5 Whys methodology applied to a systemic AI governance failure |
+| **Algorithmic Fairness** | Proxy discrimination analysis; disparate impact quantification in credit scoring |
+| **NIST AI RMF - Manage** | Incident response, recovery and lessons-learned processes applied to a live fairness failure |
+| **Customer Remediation Design** | Structured approach to identifying affected customers, quantifying harm and issuing redress |
+| **UK Regulatory Context** | FCA Consumer Duty, ICO (UK GDPR Article 22) and UK Equality Act applied to an AI system |
+| **Governance Under Pressure** | Demonstrating that a governance framework performs as intended when an incident occurs |
+
+---
+
+## 📚 Frameworks and References
+
+| Framework | Resource |
+|---|---|
+| EU AI Act (Official Text) | [EUR-Lex 2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) |
+| NIST AI Risk Management Framework 1.0 | [airc.nist.gov](https://airc.nist.gov/) |
+| ISO/IEC 42001:2023 - AI Management Systems | [iso.org/standard/81230](https://www.iso.org/standard/81230.html) |
+| FCA Consumer Duty | [fca.org.uk/firms/consumer-duty](https://www.fca.org.uk/firms/consumer-duty) |
+| UK Equality Act 2010 | [legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2010/15/contents) |
+| UK GDPR - Article 22 (Automated Decision-Making) | [ico.org.uk](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making-and-profiling/) |
+
+---
+
+<div align="center">
+
+**franciscovfonseca** · [GitHub](https://github.com/franciscovfonseca) · [LinkedIn](https://linkedin.com/in/franciscovfonseca)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+*Part of an ongoing AI Governance Portfolio · [View all projects →](https://github.com/franciscovfonseca)*
+
+</div>
